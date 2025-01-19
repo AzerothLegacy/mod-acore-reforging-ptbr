@@ -9,7 +9,7 @@
 #include "Tokenize.h"
 #include "StringConvert.h"
 #include "SpellMgr.h"
-#include "item_reforge.h"
+#include "acore-reforging-ptbr.h"
 
 ItemReforge::ItemReforge()
 {
@@ -154,7 +154,7 @@ std::string ItemReforge::GetSlotIcon(uint8 slot, uint32 width, uint32 height, in
         case EQUIPMENT_SLOT_TRINKET1:
         case EQUIPMENT_SLOT_TRINKET2:
             ss << "UI-PaperDoll-Slot-Trinket";
-            break;     
+            break;
         case EQUIPMENT_SLOT_BACK:
             ss << "UI-PaperDoll-Slot-Chest";
             break;

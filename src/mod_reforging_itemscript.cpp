@@ -3,7 +3,7 @@
  */
 
 #include "ScriptMgr.h"
-#include "item_reforge.h"
+#include "acore-reforging-ptbr.h"
 
 class mod_reforging_itemscript : public AllItemScript
 {

@@ -24,15 +24,14 @@ private:
     static constexpr const char* RED_COLOR = "b50505";
     static constexpr const char* GREEN_COLOR = "056e3a";
     static constexpr uint32 MAX_REFORGEABLE_STATS = 15;
-    
     bool enabled;
     std::vector<uint32> reforgeableStats;
     float percentage;
 
-	ItemReforge();
-	~ItemReforge();
+    ItemReforge();
+    ~ItemReforge();
 
-	typedef std::unordered_map<uint32, ReforgingData> ReforgingDataContainer;
+    typedef std::unordered_map<uint32, ReforgingData> ReforgingDataContainer;
 
     ReforgingDataContainer reforgingDataMap;
 
@@ -44,7 +43,7 @@ public:
     static constexpr float PERCENTAGE_DEFAULT = 40.0f;
     static constexpr int VISUAL_FEEDBACK_SPELL_ID = 46331;
 
-	static ItemReforge* instance();
+    static ItemReforge* instance();
 
     void SetEnabled(bool value);
     bool GetEnabled() const;

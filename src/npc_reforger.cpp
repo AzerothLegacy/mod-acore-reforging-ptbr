@@ -7,7 +7,7 @@
 #include "Creature.h"
 #include "Player.h"
 #include "StringConvert.h"
-#include "item_reforge.h"
+#include "acore-reforging-ptbr.h"
 
 class npc_reforger : public CreatureScript
 {

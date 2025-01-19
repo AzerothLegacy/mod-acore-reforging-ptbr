@@ -5,7 +5,7 @@
 #include "ScriptMgr.h"
 #include "DatabaseEnv.h"
 #include "Player.h"
-#include "item_reforge.h"
+#include "acore-reforging-ptbr.h"
 
 class mod_reforging_playerscript : public PlayerScript
 {
